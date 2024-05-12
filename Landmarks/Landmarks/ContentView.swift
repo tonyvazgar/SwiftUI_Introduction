@@ -17,10 +17,20 @@ struct ContentView: View {
 //            Text("Hola mundo 1")
 //        }
 //        .padding()
-        Text("Turtle Rocks")
-            .font(.title)
-            .fontWeight(.bold)
+        VStack(alignment: .leading) {
+            Text("Turtle Rocks")
+                .font(.title)
+                .fontWeight(.bold)
             .foregroundColor(.purple)
+            HStack{
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+            }
+        }
+        .padding()
     }
 }
 
