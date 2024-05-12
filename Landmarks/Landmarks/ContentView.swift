@@ -17,7 +17,10 @@ struct ContentView: View {
 //            Text("Hola mundo 1")
 //        }
 //        .padding()
-        Text("Pimera prueba")
+        Text("Turtle Rocks")
+            .font(.title)
+            .fontWeight(.bold)
+            .foregroundColor(.purple)
     }
 }
 
