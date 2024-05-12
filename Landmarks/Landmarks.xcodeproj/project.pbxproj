@@ -12,6 +12,7 @@
 		EF9A52AC2BF059D40098C405 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A52AB2BF059D40098C405 /* Item.swift */; };
 		EF9A52AE2BF059D70098C405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9A52AD2BF059D70098C405 /* Assets.xcassets */; };
 		EF9A52B12BF059D70098C405 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9A52B02BF059D70098C405 /* Preview Assets.xcassets */; };
+		EF9A52B82BF05FE60098C405 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A52B72BF05FE60098C405 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		EF9A52AB2BF059D40098C405 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EF9A52AD2BF059D70098C405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF9A52B02BF059D70098C405 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF9A52B72BF05FE60098C405 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				EF9A52A72BF059D40098C405 /* LandmarksApp.swift */,
 				EF9A52A92BF059D40098C405 /* ContentView.swift */,
+				EF9A52B72BF05FE60098C405 /* CircleImage.swift */,
 				EF9A52AB2BF059D40098C405 /* Item.swift */,
 				EF9A52AD2BF059D70098C405 /* Assets.xcassets */,
 				EF9A52AF2BF059D70098C405 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9A52AA2BF059D40098C405 /* ContentView.swift in Sources */,
+				EF9A52B82BF05FE60098C405 /* CircleImage.swift in Sources */,
 				EF9A52AC2BF059D40098C405 /* Item.swift in Sources */,
 				EF9A52A82BF059D40098C405 /* LandmarksApp.swift in Sources */,
 			);
